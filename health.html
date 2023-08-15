@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Landing Page</title>
+</head>
+
+<body>
+	<nav>
+		<div class="heading">MyTracker</div>
+		<span class="sideMenuButton"
+			onclick="openNavbar()">
+			☰
+		</span>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Side navigation bar for
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar">
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()">
+			
+		</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Sign Up</a>
+	</div>
+
+	<!-- Content -->
+	<div class="line" id="Home">
+		<div class="side1">
+			<h1>Track your health for a happier and a active life…!!</h1>
+		</div>
+	    <div class="side2">
+			<img src= "C:\SVST NEHA\code\img\health.jpg" width="500">
+		</div> 
+	</div>
+
+	<section class="contact" id="contact">
+		<div class="content">
+			<div class="title"><span>Sign Up</span></div>
+			<div class="contactMenu">
+				<div class="input1">
+					<div class="label1">Your Name</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Name here">
+					</div>
+					<div class="label1">
+						<label>Your Email</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Email here">
+					</div>
+					<div class="label1">
+						<label>Your Password</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Password here">
+					</div>
+					<div class="button">
+						<button>Sign Up</button>
+					</div>
+				</div>
+				<div class="input3">
+					<div class="rightside1">
+						<div class="title1">
+							<span>More Information</span>
+						</div>
+						<div class="content1">
+							This Health Tracker is a powerful and user-friendly application that can help you easily monitor your, <br> 
+							1) Blood pressure <br> 2) Blood sugar <br> 3) Heart rate  <br> <br> Simply sign up to start using it. 
+						<!----	<img src= "plastic.jpg" width="250px"> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer section -->
+	<footer>
+		<div class="footer0"><h1>MyTracker</h1></div>
+            <div class="footer1">
+                Connect with us at
+                <div class="social-media">
+                    <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+                    <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+                    <a href="#"> <ion-icon name="logo-youtube"></ion-icon> </a>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="Company">
+                    <div class="heading">Company</div>
+                    <div class="div">Complaint</div>
+                    <div class="div">Support</div>
+                </div>
+                <div class="Get Help">
+                    <div class="heading">Get Help</div>
+                    <div class="div">Help Center</div>
+                    <div class="div">Privacy Policy</div>
+                    <div class="div">Terms</div>
+                    <div class="div">Login</div>
+                </div>
+            </div>
+            <div class="footer3">
+				Copyright ©
+                <h4>MyTracker</h4>
+            </div>
+	</footer>
+	<script src="script.js"></script>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
